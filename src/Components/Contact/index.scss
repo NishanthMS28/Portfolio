@@ -10,7 +10,7 @@
       padding: 0;
       margin: 0;
       list-style: none;
-      margin-bottom: 10px;
+      margin-bottom: 7px;
       overflow: hidden;
       display: block;
       position: relative;
@@ -36,8 +36,8 @@
     width: 100%;
     border: 0;
     background: #115173;
-    height: 50px;
-    font-size: 18px;
+    height: 38px;
+    font-size: 13px;
     color: #fff;
     padding: 0 20px;
     box-sizing: border-box;
@@ -47,8 +47,8 @@
     width: 100%;
     border: 0;
     background: #115173;
-    height: 50px;
-    font-size: 18px;
+    height: 38px;
+    font-size: 13px;
     color: #fff;
     padding: 20px;
     min-height: 150px;
@@ -58,13 +58,13 @@
   .flat-button {
     color: #ffd700;
     background: 0 0;
-    font-size: 15px;
-    letter-spacing: 6px;
+    font-size: 12px;
+    letter-spacing: 5px;
     text-decoration: none;
-    padding: 10px 18px;
+    padding: 10px 20px;
     border: 1px solid #ffd700;
     float: right;
-    border-radius: 4px;
+    border-radius: 3px;
     cursor: pointer;
     white-space: nowrap;
     font-family: sans-serif;
@@ -79,20 +79,20 @@
 .info-map {
   position: absolute;
   background-color: black;
-  top: -50px;
-  left: 1410px;
+  top: -40px;
+  left: 1050px;
   z-index: 999999;
-  width: 257px;
+  width: 193px;
   padding: 20px;
   color: white;
   font-family: 'Helvetica';
-  font-size: 17px;
+  font-size: 13px;
   font-weight: 300;
   opacity: 0;
   animation: fadeIn 1s 1.5s forwards;
 
   span {
-    font-size: 16px;
+    font-size: 13px;
     display: block;
     padding-top: 20px;
     color: #ffd700;
@@ -100,15 +100,15 @@
 }
 
 .contactDesign {
-  font-size: 220px;
+  font-size: 165px;
   font-family: 'Bebas Neue';
   color: #ffd700;
-  left: 830px;
+  left: 630px;
   position: relative;
   word-spacing: 25px;
-  top: -700px;
-  text-shadow: 8px 8px #732d2d;
-  line-height: 250px;
+  top: -730px;
+  text-shadow: 6px 6px #732d2d;
+  line-height: 190px;
   // animation: Fall 1.3s 1s 1 forwards ease-out;
 }
 

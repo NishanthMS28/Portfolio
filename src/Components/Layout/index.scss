@@ -6,7 +6,7 @@
 
 .top-tags {
   bottom: auto;
-  top: 35px;
+  top: 26.25px;
 }
 
 .tags {
@@ -14,13 +14,13 @@
   opacity: 0.6;
   position: absolute;
   bottom: 0;
-  left: 120px;
-  font-size: 18px;
+  left: 90px;
+  font-size: 13.5px;
   font-family: 'La Belle Aurore';
 }
 
 .bottom-tag-html {
-  margin-left: -20px;
+  margin-left: -15px;
 }
 
 .container {
@@ -43,33 +43,33 @@
 .portfolio-page {
   h1 {
     color: #ffd700;
-    font-size: 80px;
+    font-size: 60px;
     margin-top: 0;
     position: relative;
-    margin-bottom: 40px;
-    left: 10px;
+    margin-bottom: 22.5px;
+    left: 7.5px;
     font-family: 'Coolvetica';
     font-weight: 400;
 
     &::before {
       content: '<h1>';
       font-family: 'La Belle Aurore';
-      font-size: 18px;
+      font-size: 13.5px;
       position: absolute;
       margin-top: -10px;
       left: -10px;
       opacity: 0.6;
-      line-height: 18px;
+      line-height: 13.5px;
     }
 
     &::after {
       content: '</h1>';
       font-family: 'La Belle Aurore';
       color: #ffd700;
-      font-size: 18px;
+      font-size: 13.5px;
       position: absolute;
       margin-top: 60px;
-      line-height: 18px;
+      line-height: 13.5px;
       left: -30px;
       bottom: -20px;
       margin-left: 20px;
@@ -78,7 +78,7 @@
   }
 
   p {
-    font-size: 18px;
+    font-size: 13.5px;
     color: #fff;
     font-family: sans-serif;
     font-weight: 300;

@@ -7,13 +7,13 @@
   overflow: auto;
 
   h1.page-title {
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 100px;
   }
 
   .images-container {
     display: flex;
-    gap: 15px;
+    gap: 20px;
     flex-wrap: wrap;
     padding-bottom: 100px;
   }
@@ -21,8 +21,9 @@
   .image-box {
     position: relative;
     flex: 1 1 20%;
-    height: 450px;
+    height: 350px;
     overflow: hidden;
+    left: 30px;
     border-radius: 10px;
     max-width: calc(25% - 10px);
 
@@ -67,12 +68,13 @@
     .btn {
       margin-top: 30px;
       margin-bottom: 10px;
-      padding: 0 23px;
-      height: 40px;
-      line-height: 34px;
+      padding-left: 18px;
+      padding-right: 18px;
+      height: 30px;
+      line-height: 25px;
       border: 2px solid #ffd700;
-      border-radius: 4px;
-      font-size: 14px;
+      border-radius: 3px;
+      font-size: 11px;
       color: white;
       background: transparent;
       text-transform: uppercase;
@@ -88,7 +90,7 @@
 
     &::after {
       content: '';
-      background: linear-gradient(180deg, #ffd700, black);
+      background: linear-gradient(180deg, #ffd700, rgb(0, 0, 0));
       position: absolute;
       left: 0;
       right: 0;
