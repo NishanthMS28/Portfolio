@@ -99,19 +99,31 @@
   }
 }
 
-// .contactDesign {
-//   font-size: 165px;
-//   font-family: 'Bebas Neue';
-//   color: #ffd700;
-//   right: 40px;
-//   margin-right: 0px;
-//   margin-top: 20px;
-//   position: absolute;
-//   word-spacing: 25px;
-//   top: -730px;
-//   text-shadow: 6px 6px #732d2d;
-//   line-height: 190px;
-// }
+@media (min-width: 100px) and (max-width: 800px) {
+  .contactDesign {
+    visibility: hidden;
+  }
+  .info-map {
+    top: 5px;
+    right: 0px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1200px) {
+  .contactDesign {
+    font-size: 110px;
+    font-family: 'Bebas Neue';
+    color: #ffd700;
+    right: 50px;
+    margin-right: 0px;
+    margin-top: 20px;
+    position: absolute;
+    word-spacing: 25px;
+    top: -700px;
+    text-shadow: 6px 6px #732d2d;
+    line-height: 130px;
+  }
+}
 
 @media (min-width: 1200px) and (max-width: 1440px) {
   .contactDesign {
