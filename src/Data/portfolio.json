@@ -2,7 +2,7 @@
   "portfolio": [
     {
       "cover": "/portfolio/1/one.jpg",
-      "title": "GGWP",
+      "title": "EHUB_E-commerce",
       "description": "React, Material UI, Commerce JS, Stripe",
       "url": "https://ehub-shop.netlify.app/"
     },
