@@ -7,10 +7,10 @@
       "url": "https://ehub-shop.netlify.app/"
     },
     {
-      "cover": "/portfolio/1/one.jpg",
-      "title": "GGWP",
-      "description": "React, JSX, Taiwind, Jest",
-      "url": "https://google.com"
+      "cover": "/portfolio/1/tesla.jpg",
+      "title": "Tesla Clone",
+      "description": "React, JSX, SCSS",
+      "url": "https://tesla-inspire.netlify.app/"
     }
   ]
 }
