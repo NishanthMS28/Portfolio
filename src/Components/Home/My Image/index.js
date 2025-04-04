@@ -1,5 +1,5 @@
 import './index.scss'
-import ProfilePhoto from '../../../assets/images/Profile photo..jpg'
+import ProfilePhoto from '../../../assets/images/my image.jpg'
 
 function Logo() {
   return (
